@@ -10,7 +10,7 @@ To allow backend and admin servers to access the internet for updates, package i
 
 Overall, this architecture ensures that the application remains highly available, scalable under load, and secure by design. Traffic is carefully controlled at each layer, failures are handled gracefully through load balancing and auto scaling, and critical services are isolated within private networks. This project reflects real-world AWS cloud deployment practices rather than a basic single-server setup.
 
-# 🍔 Full Stack Food Delivery App – AWS Cloud Deployment
+#  Full Stack Food Delivery App – AWS Cloud Deployment
 
 This project demonstrates the deployment of a **scalable, production-style full stack food delivery application** on **Amazon Web Services (AWS)** using core cloud architecture principles such as **Auto Scaling, Load Balancing, Private Networking, and NAT Gateways**.
 
@@ -18,7 +18,7 @@ The main goal of this project is to showcase **real-world AWS infrastructure des
 
 ---
 
-## 🚀 Architecture Overview
+##  Architecture Overview
 
 The application is deployed using a **multi-tier architecture** consisting of:
 
@@ -29,9 +29,9 @@ The application is deployed using a **multi-tier architecture** consisting of:
 
 ---
 
-## 🧱 Infrastructure Design
+## Infrastructure Design
 
-### 1️⃣ Frontend Layer
+### Frontend Layer
 - **Auto Scaling Group (ASG)** with:
   - Minimum: 2 EC2 instances
   - Instances deployed across **multiple availability zones**
@@ -41,7 +41,7 @@ The application is deployed using a **multi-tier architecture** consisting of:
 
 ---
 
-### 2️⃣ Backend & Admin Layer
+### Backend & Admin Layer
 - Deployed in **private subnets**
 - Managed by a **Private Application Load Balancer**
 - EC2 instances:
@@ -51,7 +51,7 @@ The application is deployed using a **multi-tier architecture** consisting of:
 
 ---
 
-### 3️⃣ Networking
+### Networking
 - **VPC with Public and Private Subnets**
 - **NAT Gateway** placed in a public subnet
 - Private EC2 instances access the internet securely via the NAT Gateway
@@ -59,7 +59,7 @@ The application is deployed using a **multi-tier architecture** consisting of:
 
 ---
 
-### 4️⃣ Security
+### Security
 - **Security Groups** used to control inbound and outbound traffic
 - Backend servers only accept traffic from the **private load balancer**
 - Frontend servers only expose required ports (HTTP/HTTPS)
@@ -81,7 +81,7 @@ Backend & Admin EC2s (Private Subnet)
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **AWS EC2**
 - **Auto Scaling Group**
@@ -94,7 +94,7 @@ Backend & Admin EC2s (Private Subnet)
 
 ---
 
-## 📈 Key Cloud Concepts Demonstrated
+## Key Cloud Concepts Demonstrated
 
 - High Availability
 - Horizontal Scaling
@@ -105,7 +105,7 @@ Backend & Admin EC2s (Private Subnet)
 
 ---
 
-## 🧪 Deployment Highlights
+## Deployment Highlights
 
 - Frontend automatically scales based on demand
 - Backend remains protected inside private subnets
@@ -115,7 +115,7 @@ Backend & Admin EC2s (Private Subnet)
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - HTTPS using AWS Certificate Manager (ACM)
 - CI/CD pipeline using GitHub Actions or AWS CodePipeline
@@ -125,7 +125,7 @@ Backend & Admin EC2s (Private Subnet)
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ayush Dubey**  
 
