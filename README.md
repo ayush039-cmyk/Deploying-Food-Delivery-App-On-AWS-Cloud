@@ -130,7 +130,3 @@ Backend & Admin EC2s (Private Subnet)
 **Ayush Dubey**  
 
 ---
-
-## ⭐ Why This Project Matters
-
-This project goes beyond basic deployments and reflects **how production systems are actually built on AWS**, making it highly relevant for **cloud engineering and DevOps roles**.
